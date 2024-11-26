@@ -1,0 +1,36 @@
+.cart-container {
+    margin-top: 30px;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    white-space: nowrap;
+    margin-left: 20px;
+}
+
+.cart-item h5 {
+    margin: 0;
+}
+
+.cart-item button {
+    margin-left: 10px;
+}
+
+.card {
+    margin-top: 20px;
+}
+
+.card-title {
+    font-size: 1.2rem;
+}
+
+button {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.mt-3 {
+    margin-top: 1rem !important;
+}

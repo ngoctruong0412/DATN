@@ -1,0 +1,75 @@
+/* Sidebar Container */
+.sidebar-drawer {
+    width: 240px;
+    height: 100%;
+    background-color: #2c3e50;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+  }
+  
+  /* Sidebar List */
+  .sidebar-list {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Sidebar List Item */
+  .sidebar-item {
+    padding: 12px 20px;
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+  }
+  
+  .sidebar-item:hover {
+    background-color:#1e90ff;
+  }
+  
+  .sidebar-item:active {
+    background-color: #1abc9c;
+  }
+  
+  /* Sidebar Item Text */
+  .sidebar-item .MuiListItemText-root {
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    margin-left: 10px;
+  }
+  
+  /* Sidebar Icons */
+  .sidebar-item .MuiListItemIcon-root {
+    min-width: 35px;
+    color: #1e90ff;
+  }
+  
+  /* Active Link Highlight */
+  .sidebar-item .Mui-selected {
+    background-color: #1e90ff;
+  }
+  
+  /* Custom Styling for Sidebar Text */
+  .sidebar-item .MuiListItemText-primary {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(108, 108, 108);
+    transition: color 0.3s ease;
+  }
+  
+  .sidebar-item:hover .MuiListItemText-primary {
+    color:#1e90ff;
+  }
+  
+  /* Sidebar Responsive Design */
+  @media (max-width: 768px) {
+    .sidebar-drawer {
+      width: 200px;
+    }
+    .sidebar-item .MuiListItemText-primary {
+      font-size: 14px;
+    }
+  }
+  

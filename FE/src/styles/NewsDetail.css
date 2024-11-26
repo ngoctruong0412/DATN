@@ -1,0 +1,28 @@
+/* src/NewsDetail.css */
+.news-detail {
+    padding: 20px;
+    max-width: 800px; /* Chiều rộng tối đa */
+    margin: 0 auto; /* Căn giữa trang */
+    background: #fff; /* Nền trắng */
+    border-radius: 10px; /* Bo tròn các góc */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Đổ bóng */
+  }
+  
+  .news-title {
+    font-size: 2em; /* Kích thước chữ lớn cho tiêu đề */
+    font-weight: bold;
+    margin-bottom: 20px; /* Khoảng cách dưới tiêu đề */
+  }
+  
+  .news-image {
+    width: 100%; /* Chiều rộng hình ảnh 100% */
+    height: auto; /* Chiều cao tự động để giữ tỉ lệ */
+    border-radius: 10px; /* Bo tròn cho hình ảnh */
+    margin-bottom: 20px; /* Khoảng cách dưới hình ảnh */
+  }
+  
+  .news-content {
+    font-size: 1.2em; /* Kích thước chữ mô tả */
+    color: #333; /* Màu chữ */
+  }
+  

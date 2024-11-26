@@ -1,0 +1,19 @@
+.card {
+    transition: transform 0.2s; /* Smooth transition for hover effect */
+    border: none; /* Remove default border */
+    border-radius: 10px; /* Rounded corners for the card */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Slightly zoom in on hover */
+}
+
+.card-img-top {
+    height: 200px; /* Adjust height to maintain aspect ratio */
+    object-fit: cover; /* Ensure the image covers the entire area */
+}
+
+.btn-primary {
+    width: 100%; /* Full width button */
+}

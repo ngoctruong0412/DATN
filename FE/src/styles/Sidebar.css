@@ -1,0 +1,26 @@
+.sidebar-sticky {
+    width: 250px; /* Set the width of the sidebar */
+    background-color: #f8f9fa; /* Light background color */
+    border-right: 1px solid #dee2e6; /* Add a border on the right */
+    padding: 20px; /* Add padding for inner spacing */
+    position: sticky; /* Make it sticky */
+    top: 20px; /* Stick to the top */
+    height: 100vh; /* Full height */
+    overflow-y: auto; /* Scrollable if content exceeds height */
+  }
+  
+  .sidebar-sticky .list-group-item {
+    border: none; /* Remove border from items */
+    transition: background-color 0.3s; /* Smooth background transition */
+  }
+  
+  .sidebar-sticky .list-group-item:hover {
+    background-color: #e9ecef; /* Change background color on hover */
+    cursor: pointer; /* Pointer cursor on hover */
+  }
+  
+  .sidebar-sticky .list-group-item.active {
+    background-color: #007bff; /* Active category color */
+    color: white; /* Active text color */
+  }
+  

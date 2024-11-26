@@ -1,0 +1,52 @@
+/* src/UserNews.css */
+.user-news {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .news-title {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .news-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .news-item img {
+    margin-right: 15px;
+    border-radius: 8px;
+  }
+  
+  .news-content {
+    flex: 1;
+  }
+  
+  .news-content h3 {
+    margin: 0;
+    font-size: 24px;
+    color: #444;
+  }
+  
+  .news-content p {
+    margin: 5px 0;
+    color: #666;
+  }
+  
+  .news-content a {
+    text-decoration: none;
+    color: #1e90ff;
+    font-weight: bold;
+  }
+  
+  .news-content a:hover {
+    text-decoration: underline;
+  }
+  

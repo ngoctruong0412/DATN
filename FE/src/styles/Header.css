@@ -1,0 +1,131 @@
+/* Header tổng thể */
+.custom-navbar {
+    background-color: #1e90ff; /* Màu đen đồng nhất với footer */
+    padding: 30px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.8); /* Tạo chiều sâu */
+    border-radius: 100px;
+    height: 200px;
+    bottom: 50px;
+   
+    
+}
+
+.custom-navbar .logo {
+    width: 130px;
+
+}
+
+/* Link chính của menu */
+.nav-item {
+    font-size: 16px;
+    color: #ffffff !important;
+    font-weight: 500;
+    padding: 10px 15px;
+    position: relative;
+    transition: color 0.3s;
+
+}
+
+.nav-item:hover {
+    color: #f0a500 !important; /* Màu nhấn vàng khi hover */
+}
+
+/* Sub-menu */
+.nav-item-wrapper {
+    position: relative;
+}
+
+.sub-menu {
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background-color: #333; /* Tông màu tối */
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.8);
+    list-style: none;
+    z-index: 1000;
+}
+
+.nav-item-wrapper:hover .sub-menu {
+    display: block;
+}
+
+.sub-menu li {
+    margin: 5px 0;
+}
+
+.sub-menu a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.sub-menu a:hover {
+    color: #f0a500; /* Vàng nhấn */
+}
+
+/* Thanh tìm kiếm */
+.search-form {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.search-input {
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 5px 15px;
+    margin-right: 5px;
+    width: 250px;
+    background-color: transparent;
+    margin-top: 8px;
+    color: white;
+    transition: border-color 0.3s, background-color 0.3s;
+}
+
+.search-input:focus {
+    border-color: #f0a500; /* Nhấn viền vàng khi focus */
+    background-color: rgba(255, 255, 255, 0.1); /* Nền nhạt hơn */
+    outline: none;
+}
+
+.search-button {
+    border-radius: 20px;
+    padding: 5px 15px;
+    background-color: #f0a500;
+    color: black;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.search-button:hover {
+    background-color: #b9ed1d; /* Vàng sáng hơn */
+}
+
+/* Icon */
+.header-icons .icon {
+    color: #ffffff;
+    font-size: 20px;
+    margin-left: 10px;
+    transition: color 0.3s;
+    margin-top: 10px;
+}
+
+.header-icons .icon:hover {
+    color: #f0a500; /* Vàng nhấn khi hover */
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .search-input {
+        width: 150px;
+    }
+
+    .sub-menu {
+        top: 30px;
+    }
+}
